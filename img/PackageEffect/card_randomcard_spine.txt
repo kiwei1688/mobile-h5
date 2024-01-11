@@ -1,0 +1,127 @@
+card_randomcard_spine.png
+	size: 2048, 1024
+	filter: Linear, Linear
+	pma: true
+BCB
+	bounds: 1108, 789, 161, 223
+BCB2
+	bounds: 1204, 314, 127, 209
+BCL
+	bounds: 1271, 790, 161, 222
+BCL2
+	bounds: 630, 742, 214, 270
+C
+	bounds: 2, 539, 323, 473
+C_Base
+	bounds: 1036, 241, 166, 236
+C_BaseL
+	bounds: 1947, 894, 83, 118
+C_L2
+	bounds: 617, 2, 45, 222
+	rotate: 90
+C_LEFT
+	bounds: 2, 13, 89, 221
+	rotate: 90
+C_RIGHT
+	bounds: 617, 49, 89, 235
+	rotate: 90
+E1
+	bounds: 327, 616, 79, 264
+	rotate: 90
+EO1
+	bounds: 1287, 133, 120, 179
+F
+	bounds: 305, 3, 217, 310
+	rotate: 90
+FL
+	bounds: 630, 725, 15, 244
+	rotate: 90
+Gframe
+	bounds: 863, 235, 171, 242
+GframeS
+	bounds: 863, 62, 171, 242
+	rotate: 90
+N
+	bounds: 2, 104, 301, 433
+OS
+	bounds: 604, 387, 308, 245
+	rotate: 90
+P1
+	bounds: 1434, 831, 140, 181
+P2
+	bounds: 1107, 10, 178, 229
+QF
+	bounds: 1287, 26, 105, 159
+	rotate: 90
+Qn_01
+	bounds: 1576, 868, 124, 144
+Qn_02
+	bounds: 1333, 436, 122, 158
+Qn_03
+	bounds: 1409, 201, 134, 136
+Qn_04
+	bounds: 1457, 542, 122, 134
+Qn_05
+	bounds: 1322, 596, 126, 192
+Qn_06
+	bounds: 1450, 678, 151, 141
+	rotate: 90
+Qn_07
+	bounds: 1448, 63, 131, 136
+Qn_08
+	bounds: 1603, 416, 128, 110
+	rotate: 90
+Qn_09
+	bounds: 1715, 431, 116, 93
+Qn_10
+	bounds: 1691, 30, 114, 110
+	rotate: 90
+Qn_11
+	bounds: 1581, 28, 108, 116
+Question
+	bounds: 1333, 339, 95, 137
+	rotate: 90
+RL01
+	bounds: 1581, 546, 123, 130
+RL02
+	bounds: 1593, 736, 123, 130
+RL03
+	bounds: 1702, 882, 123, 130
+RL04
+	bounds: 1472, 406, 129, 134
+Ring_01
+	bounds: 1096, 525, 224, 224
+SQ
+	bounds: 305, 222, 315, 297
+	rotate: 90
+SQF
+	bounds: 851, 479, 243, 244
+SQF2
+	bounds: 846, 751, 261, 260
+	rotate: 90
+SQ_2
+	bounds: 327, 697, 301, 315
+SQ_3
+	bounds: 617, 140, 245, 244
+	rotate: 90
+SQ_C
+	bounds: 1545, 274, 123, 130
+Z_01
+	bounds: 1706, 608, 118, 126
+Z_02
+	bounds: 1718, 754, 118, 126
+Z_03
+	bounds: 1827, 886, 118, 126
+Z_06
+	bounds: 1838, 766, 118, 126
+	rotate: 90
+Z_14
+	bounds: 1838, 646, 118, 126
+	rotate: 90
+Z_15
+	bounds: 1826, 526, 118, 126
+	rotate: 90
+Z_16
+	bounds: 1581, 146, 118, 126
+Z_303
+	bounds: 1670, 288, 118, 126

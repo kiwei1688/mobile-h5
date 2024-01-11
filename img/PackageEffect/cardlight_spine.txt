@@ -1,0 +1,107 @@
+cardlight_spine.png
+	size: 2048, 2048
+	filter: Linear, Linear
+	pma: true
+AA
+	bounds: 633, 1533, 174, 327
+	rotate: 90
+AA_P
+	bounds: 962, 1380, 174, 327
+AS
+	bounds: 2, 1065, 16, 971
+AS_P
+	bounds: 2, 92, 16, 971
+CL
+	bounds: 2, 2, 56, 56
+CLB
+	bounds: 1657, 1720, 333, 316
+CLB_P
+	bounds: 1164, 1576, 333, 316
+CL_P
+	bounds: 60, 2, 56, 56
+CS
+	bounds: 928, 1139, 178, 239
+CS_P
+	bounds: 633, 1060, 178, 239
+	rotate: 90
+CT2
+	bounds: 551, 1930, 80, 106
+CT2_P
+	bounds: 551, 1822, 80, 106
+Card
+	bounds: 1794, 1437, 228, 281
+CardBL
+	bounds: 1499, 1761, 131, 153
+	rotate: 90
+CardBL2
+	bounds: 1326, 820, 95, 113
+	rotate: 90
+CardBL2_P
+	bounds: 1085, 753, 95, 113
+	rotate: 90
+CardBL_P
+	bounds: 1632, 1294, 131, 153
+	rotate: 90
+CardLine
+	bounds: 2, 60, 30, 629
+	rotate: 90
+CardSideL_P
+	bounds: 1138, 1360, 214, 266
+	rotate: 90
+Card_P
+	bounds: 1794, 1154, 228, 281
+Light
+	bounds: 1164, 1894, 142, 491
+	rotate: 90
+PKP_01
+	bounds: 1406, 1257, 168, 224
+	rotate: 90
+PKP_03
+	bounds: 1108, 1190, 168, 224
+	rotate: 90
+PKP_05
+	bounds: 1334, 1087, 168, 224
+	rotate: 90
+PKP_07
+	bounds: 1108, 1020, 168, 224
+	rotate: 90
+PKP_09
+	bounds: 874, 969, 168, 224
+	rotate: 90
+PKP_11
+	bounds: 1560, 1087, 168, 224
+	rotate: 90
+PKP_13
+	bounds: 633, 890, 168, 224
+	rotate: 90
+PK_01
+	bounds: 1786, 984, 168, 224
+	rotate: 90
+PK_03
+	bounds: 1334, 917, 168, 224
+	rotate: 90
+PK_05
+	bounds: 1560, 917, 168, 224
+	rotate: 90
+PK_07
+	bounds: 1100, 850, 168, 224
+	rotate: 90
+PK_09
+	bounds: 859, 799, 168, 224
+	rotate: 90
+PK_11
+	bounds: 633, 720, 168, 224
+	rotate: 90
+PK_13
+	bounds: 1786, 814, 168, 224
+	rotate: 90
+VC
+	bounds: 633, 1709, 327, 529
+	rotate: 90
+VCCL
+	bounds: 633, 1240, 293, 291
+VCCL_P
+	bounds: 1499, 1427, 293, 291
+VC_P
+	bounds: 20, 1709, 327, 529
+	rotate: 90

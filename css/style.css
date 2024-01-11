@@ -1,0 +1,221 @@
+html,
+body,
+#app {
+  height: 100%;
+}
+
+body.noScroll {
+  overflow: hidden;
+}
+
+body.darkMode {
+  background-color: #101A36;
+}
+
+::-webkit-scrollbar{
+  -webkit-appearance: none;
+  width: 3px;
+}
+::-webkit-scrollbar-thumb{
+  border-radius: 100px;
+  background: #979797;
+}
+
+.darkMode ::-webkit-scrollbar-thumb{
+  width: 3px;
+  background: #CECCCC !important;
+}
+
+a {
+  color: unset;
+}
+.darkMode a{
+  color: #7AA6FF;
+}
+a:hover {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+select {
+  appearance: none;
+  border: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+}
+
+option::-ms-expand {
+  display: none;
+}
+
+option {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+input[type="search"] {
+  -webkit-appearance: none;
+}
+
+.input-placeholder-gray {
+  background-image: linear-gradient(180deg, #F2F2F2 0%, #D5D5D5 100%), linear-gradient(#D1D1D1, #FFFFFF) !important;
+  pointer-events: none;
+}
+.darkMode .input-placeholder-gray {
+  background-image: linear-gradient(180deg, #DEDEDE 0%, #747474 100%)!important;
+}
+
+::placeholder {
+  /* CSS 3 標準 */
+  color: #9F9F9F;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome, Safari */
+  color: #9F9F9F;
+}
+
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #9F9F9F;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #9F9F9F;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.input-placeholder {
+  color: #5F5F5F;
+  letter-spacing: 1px;
+  font-weight: 400;
+  background: #fff;
+  border: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  outline: none;
+  padding-left: 10px;
+}
+
+.darkMode .input-placeholder {
+  /* color: #383A48; */
+  background: #fff;
+}
+
+/* 蓋過預設input樣式 */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-text-fill-color: #383A48;
+  transition: background-color 99999s ease-in-out 0s;
+}
+
+input {
+  border: 0;
+  outline: none;
+}
+
+/* 地址選單禁用 */
+.selectDisable {
+  pointer-events: none;
+}
+
+.selectDisable.active {
+  pointer-events: auto;
+}
+
+input:disabled {
+  color: #C3C3C3;
+  -webkit-text-fill-color: #C3C3C3;
+  opacity: 1;
+}
+
+.invoice-select .common---arrow-icon {
+  margin-right: 10px;
+  width: 12px;
+}
+
+.invoice-select {
+  width: 50%;
+  display: block;
+}
+
+/* 拼圖驗證重整圖 */
+.slide-verify-refresh-icon {
+  top: 46px !important;
+  right: -2px !important;
+  background: url(../img/icons/icons_reload.png) no-repeat !important;
+  background-size: 78% !important;
+  width: 42px !important;
+  height: 40px !important;
+}
+
+/* demo頁面 */
+.demo-wrap {
+  background-image: url(../img/bg/bg_maintain.png);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+}
+.darkMode .demo-wrap {
+  background-image: url(../img/bg/bg_maintain_darkMode.png);
+}
+
+.demo-wrap .common---icon-back {
+  top: 0px;
+  width: 27px;
+  margin: 20px;
+}
+
+/* 隱藏返回icon */
+.demo-wrap .common---icon-back.none {
+  display: none;
+}
+
+.demo-txt {
+  font-size: 24px;
+  color: #383a48;
+  text-align: center;
+  font-weight: 500;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.darkMode .demo-txt {
+  color: #fff;
+}
+
+/* iphoneSE */
+@media (max-width: 375px) {
+  .agree_checkbox input[type="checkbox"]+label::before{
+    width: 20px !important;
+    height: 20px !important;
+  }
+
+}
